@@ -81,7 +81,7 @@ function ResponsiveDrawer() {
       <Divider />
       <List>
         {buckets.map((bucket, index) => {
-          const bgColor = active === index ? "#4ed99a":"";
+          const bgColor = active === index ? "#2196f3":"";
           if((deleteCardClicked) && (active === index)){
             setCards(bucket.cards)
             rerenderOnce(false);
