@@ -65,7 +65,7 @@ export default function CardComp({ title, link, cardIndex, bucketIndex, setModal
   }))
 
   return (
-    <Card style={{ marginLeft: "8px", marginTop: '1rem', position: "relative", textOverflow: 'ellipsis', overflow: 'hidden' }} sx={{ maxWidth: 250, height: 'min-content', opacity: isDragging ? 0.5 : 1 }} ref={drag}>
+    <Card style={{ marginLeft: "10px", marginTop: '1rem', position: "relative", textOverflow: 'ellipsis', overflow: 'hidden' }} sx={{ maxWidth: 250, height: 'min-content', opacity: isDragging ? 0.5 : 1 }} ref={drag}>
       <CardContent style={{textOverflow: 'ellipsis', overflow: 'hidden'}}>
         <Typography gutterBottom variant="h4" component="div">
           {title}
