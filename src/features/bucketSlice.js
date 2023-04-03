@@ -15,7 +15,7 @@ const initialState = {
         },
         {
             id: nanoid(),
-            name: "School",
+            name: "Lectures",
             cards: [
                 {
                     id: nanoid(),
@@ -47,7 +47,7 @@ const initialState = {
             ]
         },
         {
-            name: "Songs",
+            name: "Music",
             id: nanoid(),
             cards: [
                 {
